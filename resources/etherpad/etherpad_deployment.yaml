@@ -21,6 +21,8 @@ spec:
     spec:
       containers:
       - env:
+        - name: THINGY
+          value: stuff
         - name: DB_TYPE
           value: postgres
         - name: DB_HOST
